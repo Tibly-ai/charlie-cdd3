@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Say Hi | Charlie's World</title>
+<meta name="description" content="Send Charlie and his humans a message, ask about the next trail meetup, or follow his hikes on social media.">
+<link rel="canonical" href="https://charlie-cdd3.sites.tibly.ai/contact">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://charlie-cdd3.sites.tibly.ai/contact">
+<meta property="og:site_name" content="Charlie&#39;s World">
+<meta property="og:title" content="Say Hi | Charlie's World">
+<meta property="og:description" content="Send Charlie and his humans a message, ask about the next trail meetup, or follow his hikes on social media.">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<!-- block:header -->
+<header class="bg-surface border-b border-brand-200/60">
+  <div class="max-w-6xl mx-auto px-6 py-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+    <a href="/" class="font-display text-2xl tracking-wide text-ink uppercase">
+      <span data-tibly-field="business-name">Charlie's World</span>
+    </a>
+    <nav aria-label="Primary">
+      <ul class="flex flex-wrap gap-x-6 gap-y-2 font-body text-sm uppercase tracking-wide text-ink">
+        <li><a href="/" class="pb-1 border-b border-transparent hover:border-accent-500 hover:text-accent-600 transition-colors duration-200">Home</a></li>
+        <li><a href="/about" class="pb-1 border-b border-transparent hover:border-accent-500 hover:text-accent-600 transition-colors duration-200">Meet Charlie</a></li>
+        <li><a href="/gallery" class="pb-1 border-b border-transparent hover:border-accent-500 hover:text-accent-600 transition-colors duration-200">Photo Gallery</a></li>
+        <li><a href="/adventures" class="pb-1 border-b border-transparent hover:border-accent-500 hover:text-accent-600 transition-colors duration-200">Adventures</a></li>
+        <li><a href="/contact" class="pb-1 border-b border-transparent hover:border-accent-500 hover:text-accent-600 transition-colors duration-200">Say Hi</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- /block:header -->
+<!-- block:inquiry-cta -->
+<section class="bg-background" data-block="inquiry-cta">
+  <div class="relative w-screen left-1/2 -translate-x-1/2 aspect-[16/9] md:aspect-[21/9] max-h-[520px] overflow-hidden">
+    <img loading="lazy" src="https://images.pexels.com/photos/1448052/pexels-photo-1448052.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="golden retriever standing on a rocky mountain trail overlook at sunrise" class="h-full w-full object-cover">
+    <div class="absolute inset-0 bg-ink/45 flex items-end">
+      <div class="max-w-6xl mx-auto px-6 pb-8 sm:pb-12 w-full">
+        <h1 class="font-display text-5xl sm:text-6xl md:text-7xl uppercase tracking-tight text-surface leading-none">Say Hi</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="max-w-6xl mx-auto px-6 py-16 md:py-24 grid md:grid-cols-5 gap-12">
+    <div class="md:col-span-3">
+      <p class="font-body text-lg text-ink/80 max-w-prose mb-8">
+        Charlie can't type, mostly on account of the paws, but his humans check messages every day. Tell us about a trail you love, ask when the next meetup is, or just say hello. We read every note out loud to him, tail wag included.
+      </p>
+      <form method="POST" action="https://api.tibly.ai/api/public/site-forms" class="space-y-5 max-w-prose">
+        <input type="hidden" name="_page" value="/contact">
+        <input type="text" name="_gotcha" class="hidden" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <div>
+          <label for="name" class="block font-display text-sm uppercase tracking-wide text-ink mb-1">Name</label>
+          <input id="name" name="name" type="text" required class="w-full rounded-md border border-brand-200/60 bg-surface px-4 py-3 font-body text-ink focus:outline-none focus:ring-2 focus:ring-accent-500 transition-colors duration-200">
+        </div>
+        <div>
+          <label for="email" class="block font-display text-sm uppercase tracking-wide text-ink mb-1">Email</label>
+          <input id="email" name="email" type="email" required class="w-full rounded-md border border-brand-200/60 bg-surface px-4 py-3 font-body text-ink focus:outline-none focus:ring-2 focus:ring-accent-500 transition-colors duration-200">
+        </div>
+        <div>
+          <label for="message" class="block font-display text-sm uppercase tracking-wide text-ink mb-1">Message</label>
+          <textarea id="message" name="message" rows="5" required class="w-full rounded-md border border-brand-200/60 bg-surface px-4 py-3 font-body text-ink focus:outline-none focus:ring-2 focus:ring-accent-500 transition-colors duration-200"></textarea>
+        </div>
+        <button type="submit" class="btn">Send It</button>
+      </form>
+    </div>
+
+    <div class="md:col-span-2">
+      <div class="card p-8 space-y-6 font-body text-ink">
+        <div>
+          <p class="font-display text-sm uppercase tracking-wide text-accent-600 mb-1">Call or Text</p>
+          <a href="tel:+15555550142" data-tibly-field="phone" class="text-lg hover:text-accent-600 transition-colors duration-200">(555) 555-0142</a>
+        </div>
+        <div>
+          <p class="font-display text-sm uppercase tracking-wide text-accent-600 mb-1">Email</p>
+          <a href="mailto:hello@charliesworld.dog" data-tibly-field="email" class="text-lg hover:text-accent-600 transition-colors duration-200">hello@charliesworld.dog</a>
+        </div>
+        <div>
+          <p class="font-display text-sm uppercase tracking-wide text-accent-600 mb-1">Trailhead</p>
+          <p data-tibly-field="address" class="text-lg">214 Ridgeline Trail, Boulder, CO</p>
+        </div>
+        <div>
+          <p class="font-display text-sm uppercase tracking-wide text-accent-600 mb-1">Meetup Hours</p>
+          <p data-tibly-field="hours" class="text-lg">Saturdays 9am to noon, trail dates posted weekly</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /block:inquiry-cta -->
+<!-- block:about-strip -->
+<section class="bg-ink text-surface" data-block="about-strip">
+  <div class="max-w-6xl mx-auto px-6 py-16 md:py-20 flex flex-col md:flex-row md:items-center md:justify-between gap-10">
+    <div class="max-w-xl">
+      <h2 class="font-display text-3xl sm:text-4xl uppercase tracking-wide mb-3">Follow the Trail</h2>
+      <p class="font-body text-surface/80">
+        Most of <span data-tibly-field="business-name">Charlie's World</span> happens off the website, out on the ridge with mud on his nose and a stick he's decided is his now. Follow along for weekend routes, new overlooks, and the occasional standoff with a squirrel he never quite catches.
+      </p>
+    </div>
+    <div data-tibly-field="links" class="flex gap-8 font-display text-sm uppercase tracking-wide shrink-0">
+      <a href="https://instagram.com" class="border-b border-transparent pb-1 hover:border-accent-500 hover:text-accent-400 transition-colors duration-200">Instagram</a>
+      <a href="https://facebook.com" class="border-b border-transparent pb-1 hover:border-accent-500 hover:text-accent-400 transition-colors duration-200">Facebook</a>
+    </div>
+  </div>
+</section>
+<!-- /block:about-strip -->
+<!-- block:footer -->
+<footer class="bg-ink text-surface">
+  <div class="max-w-6xl mx-auto px-6 py-16 grid gap-12 sm:grid-cols-3">
+    <div>
+      <p class="font-display text-2xl uppercase tracking-wide mb-3"><span data-tibly-field="business-name">Charlie's World</span></p>
+      <p class="font-body text-sm text-surface/70 max-w-xs">One good dog, a lot of trail miles, and the photos to prove it.</p>
+    </div>
+    <div class="font-body text-sm space-y-2">
+      <p><a href="tel:+15555550142" data-tibly-field="phone" class="hover:text-accent-500 transition-colors duration-200">(555) 555-0142</a></p>
+      <p><a href="mailto:hello@charliesworld.dog" data-tibly-field="email" class="hover:text-accent-500 transition-colors duration-200">hello@charliesworld.dog</a></p>
+      <p data-tibly-field="address">214 Ridgeline Trail, Boulder, CO</p>
+      <p data-tibly-field="hours">Saturdays 9am to noon, trail dates posted weekly</p>
+    </div>
+    <div>
+      <nav aria-label="Footer">
+        <ul class="font-body text-sm uppercase tracking-wide space-y-2">
+          <li><a href="/" class="hover:text-accent-500 transition-colors duration-200">Home</a></li>
+          <li><a href="/about" class="hover:text-accent-500 transition-colors duration-200">Meet Charlie</a></li>
+          <li><a href="/gallery" class="hover:text-accent-500 transition-colors duration-200">Photo Gallery</a></li>
+          <li><a href="/adventures" class="hover:text-accent-500 transition-colors duration-200">Adventures</a></li>
+          <li><a href="/contact" class="hover:text-accent-500 transition-colors duration-200">Say Hi</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div data-tibly-field="links" class="border-t border-surface/10">
+    <div class="max-w-6xl mx-auto px-6 py-6 flex gap-6 font-body text-sm">
+      <a href="https://instagram.com" class="hover:text-accent-500 transition-colors duration-200">Instagram</a>
+      <a href="https://facebook.com" class="hover:text-accent-500 transition-colors duration-200">Facebook</a>
+    </div>
+  </div>
+  <div class="max-w-6xl mx-auto px-6 py-6 border-t border-surface/10 text-xs text-surface/50 font-body">
+    © 2024 <span data-tibly-field="business-name">Charlie's World</span>. All trail rights reserved by one very good boy.
+  </div>
+</footer>
+<!-- /block:footer -->
+  <script async src="https://api.tibly.ai/widget/v1.js"></script>
+</body>
+</html>
